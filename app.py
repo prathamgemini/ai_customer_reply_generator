@@ -12,6 +12,15 @@ st.set_page_config(
 
 # Custom CSS for better styling
 st.markdown("""
+<style>
+textarea {
+    color: #222 !important;
+    background-color: #f0f2f6 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
     
