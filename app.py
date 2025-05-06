@@ -13,13 +13,9 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
-body, .stApp {
-    background-color: #262730;
-    color: white;
-}
 textarea {
     background-color: #262730 !important;
-    color: white !important;
+    color: #fff !important;
 }
 </style>
 """, unsafe_allow_html=True)
