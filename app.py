@@ -6,6 +6,7 @@ from groq import Groq
 # CRITICAL: set_page_config MUST be the first Streamlit command
 st.set_page_config(
     page_title="Customer Reply Generator",
+    page_icon="👨‍💻",  # Use "🤖" for robot or "👩‍💻" / "👨‍💻" for person at computer
     layout="wide",
     initial_sidebar_state="collapsed"
 )
