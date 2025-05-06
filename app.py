@@ -36,7 +36,7 @@ st.markdown("""
         padding: 0;
     }
     h1 {
-        color: white;
+        color: inherit;
         padding: 0;
         margin: 0;
         margin-bottom: 3rem;
